@@ -1,6 +1,6 @@
 import pytest
-from data_ingestion import ingestion
-from data_preprocessing import preprocessing
+from src.data_ingestion import ingestion
+from src.data_preprocessing import preprocessing
 from sklearn.model_selection import train_test_split
 
 def test_ingestion():
