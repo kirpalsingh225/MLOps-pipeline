@@ -22,9 +22,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: run mlflow
-        run: mlflow ui
-
       - name: Train Model
         run: |
           python src/train.py
